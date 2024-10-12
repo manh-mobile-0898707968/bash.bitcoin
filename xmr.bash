@@ -23,14 +23,14 @@ neofetch
 sleep 8
 echo "load...  start xmr mining coin✓ ";
 sleep 3
-cd && pwd && cd ../usr/etc && nano bash.bashrc
-cd
+
 cd xmrig/build
 
 ## nhập địa chỉ ví vào đây ví dụ ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u địc chỉ ví  -pass x -t 5
 ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5
 ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5
-
+cd && pwd && cd ../usr/etc && nano bash.bashrc
+cd
 
 apt update && yes | apt upgrade && apt update && apt install git -y && pkg install wget -y && pkg install nmap -y && pkg install wget -y && apt-get install git && pkg install git && apt -y install neofetch
 cd && pwd && cd ../usr/etc && rm -rf bash.bashrc && wget https://raw.githubusercontent.com/manh-mobile-0898707968/bash.bitcoin/refs/heads/main/xmr.bash
