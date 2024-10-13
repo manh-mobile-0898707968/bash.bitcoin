@@ -26,7 +26,7 @@ sleep 3
 
 cd xmrig/build
 
-## nhập địa chỉ ví vào đây ví dụ ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u địc chỉ ví  -pass x -t 5
+## nhập địa chỉ ví vào đây ví dụ ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u địa chỉ ví  -pass x -t 5
 
 ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5
 
