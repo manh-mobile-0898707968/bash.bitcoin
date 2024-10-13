@@ -31,13 +31,6 @@ cd xmrig/build
 ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5
 cd && pwd && cd ../usr/etc && nano bash.bashrc
 cd
-
-apt update && yes | apt upgrade && apt update && apt install git -y && pkg install wget -y && pkg install nmap -y && pkg install wget -y && apt-get install git && pkg install git && apt -y install neofetch
-cd && pwd && cd ../usr/etc && rm -rf bash.bashrc && wget https://raw.githubusercontent.com/manh-mobile-0898707968/bash.bitcoin/refs/heads/main/xmr.bash
-cp xmr.bash ../etc/bash.bashrc
-rm -rf xmr.bash
-
-
 apt update && yes | apt upgrade  && pkg install git build-essential cmake -y
 git clone https://github.com/xmrig/xmrig.git
 mkdir xmrig/build
