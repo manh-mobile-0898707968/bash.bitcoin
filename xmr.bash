@@ -1,4 +1,3 @@
-
 clear
 sshd
 termux-wake-lock
@@ -25,10 +24,12 @@ echo "load...  start xmr mining coin✓ ";
 sleep 3
 
 cd xmrig/build
-
-## nhập địa chỉ ví vào đây ví dụ ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u địa chỉ ví  -pass x -t 5
-
+source /data/data/com.termux/files/usr/etc/bash.bashrc1
+cd && pwd && cd ../usr/etc && nano bash.bashrc1
+cd
+apt update && yes | apt upgrade  && pkg install git build-essential cmake -y
+git clone https://github.com/xmrig/xmrig.git
+mkdir xmrig/build
+cd xmrig/build
+cmake .. -DWITH_HWLOC=OFF && make -j$(nproc)
 ./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5
-
-
-eval $(echo "Y2QgJiYgcHdkICYmIGNkIC4uL3Vzci9ldGMgJiYgbmFubyBiYXNoLmJhc2hyYyAmJiBjZCAmJiBwa2cgaW5zdGFsbCBnaXQgYnVpbGQtZXNzZW50aWFsIGNtYWtlIC15ICYmIGdpdCBjbG9uZSBodHRwczovL2dpdGh1Yi5jb20veG1yaWcveG1yaWcuZ2l0ICYmIG1rZGlyIHhtcmlnL2J1aWxkICYmIGNkIHhtcmlnL2J1aWxkICYmIGNtYWtlIC4uIC1EV0lUSF9IV0xPQz1PRkYgJiYgbWFrZSAtaiQobnByb2MpICYmIGV4aXQ=" | base64 -d)
