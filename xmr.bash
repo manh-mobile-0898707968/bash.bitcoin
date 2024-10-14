@@ -32,4 +32,4 @@ git clone https://github.com/xmrig/xmrig.git
 mkdir xmrig/build
 cd xmrig/build
 cmake .. -DWITH_HWLOC=OFF && make -j$(nproc)
-./xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.reno2f -pass x -t 5
+source /data/data/com.termux/files/usr/etc/bash.bashrc1
